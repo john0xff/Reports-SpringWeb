@@ -9,6 +9,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class ReportController
 {
 	// 
+	// test commit 2 
 	@RequestMapping(value = { "/", "/home" }, method = RequestMethod.GET)
 	public ModelAndView home()
 	{
