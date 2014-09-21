@@ -8,8 +8,8 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class ReportController
 {
-	@RequestMapping(value =
-	{ "/", "/home" }, method = RequestMethod.GET)
+	// 
+	@RequestMapping(value = { "/", "/home" }, method = RequestMethod.GET)
 	public ModelAndView home()
 	{
 		ModelAndView modelAndView = new ModelAndView("home");
